@@ -1,4 +1,1 @@
-echo '{"outputDirectory":"dist"}' > vercel.json
-git add vercel.json
-git commit -m "fix: set output directory"
-git push
+{"buildCommand":"node node_modules/vite/bin/vite.js build","outputDirectory":"dist","installCommand":"npm install","framework":"vite"}
