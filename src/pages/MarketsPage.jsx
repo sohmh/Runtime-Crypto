@@ -40,7 +40,7 @@ export default function MarketsPage({ T, card, prices }) {
   const history    = active ? ALL_HISTORY[active].slice(-30) : [];
 
   return (
-    <div style={{padding:24,maxWidth:1380,margin:"0 auto"}}>
+    <div style={{padding:24,maxWidth:1920,margin:"0 auto",width:"100%"}}>
       {/* Title */}
       <div style={{display:"flex",alignItems:"center",gap:12,marginBottom:24,flexWrap:"wrap"}}>
         <div>

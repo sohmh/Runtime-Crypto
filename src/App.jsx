@@ -146,7 +146,7 @@ export default function App() {
 
       {/* DASHBOARD */}
       {page==="Dashboard" && (
-        <div style={{ padding:18, maxWidth:1380, margin:"0 auto" }}>
+        <div style={{ padding:18, maxWidth:1920, margin:"0 auto", width:"100%" }}>
           <div style={{ display:"grid", gridTemplateColumns:"1fr 320px", gap:16 }}>
 
             {/* LEFT */}

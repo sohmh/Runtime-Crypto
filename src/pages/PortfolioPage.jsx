@@ -38,7 +38,7 @@ export default function PortfolioPage({ T, card }) {
   const low30    = Math.min(...sliced.map(d=>d.total));
 
   return (
-    <div style={{padding:24,maxWidth:1380,margin:"0 auto"}}>
+    <div style={{padding:24,maxWidth:1920,margin:"0 auto",width:"100%"}}>
 
       {/* Page header */}
       <div style={{marginBottom:28}}>
